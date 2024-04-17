@@ -1,4 +1,3 @@
-// Fetch the repositories from the GitHub API
 fetch('https://api.github.com/users/yarabaccule/repos?per_page=10')
   .then(response => response.json())
   .then(data => {

@@ -36,6 +36,8 @@ a:hover {
     height: 200px;
     border-radius: 50%;
     border: 2px solid white;
+    margin-top: 5rem !important;
+
 }
 
 .header .title {
@@ -83,6 +85,9 @@ a:hover {
     background-image: url('../img/icons/phone.svg');
 }
 
+.information .linkedin::before {
+    background-image: url('../img/icons/linkedin.svg');
+}
 @media only screen and (min-width: 768px) {
     .header {
         display: grid;
