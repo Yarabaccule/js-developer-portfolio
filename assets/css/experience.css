@@ -1,0 +1,13 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.experience li .period{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
